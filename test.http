@@ -1,0 +1,22 @@
+POST https://aws/dev/v1/connections
+
+{
+"name": "a",
+"url" "b"
+}
+
+###
+GET https://aws/dev/v1/connections
+
+###
+GET https://aws/dev/v1/connections/a
+
+###
+PUT https://aws/dev/v1/connections/a
+
+{
+"url" "c"
+}
+
+###
+DELETE https://aws/dev/v1/connections/a
